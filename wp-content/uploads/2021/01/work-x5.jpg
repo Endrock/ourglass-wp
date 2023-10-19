@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<meta charset="UTF-8"><link data-optimized="2" rel="stylesheet" href="https://ninetheme.com/themes/awam/wp-content/litespeed/cssjs/57f93.css?bcc57" />
+<meta name="viewport" content="initial-scale=1.0" />
+<meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, maximum-scale=1, minimum-scale=1, minimal-ui" />
+<meta name="theme-color" content="#056EB9" />
+<meta name="msapplication-navbutton-color" content="#056EB9" />
+<meta name="apple-mobile-web-app-status-bar-style" content="#056EB9" />
+<title>Page not found &#8211; Awam</title>
+<meta name='robots' content='noindex,nofollow' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="Awam &raquo; Feed" href="https://ninetheme.com/themes/awam/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Awam &raquo; Comments Feed" href="https://ninetheme.com/themes/awam/comments/feed/" />
+<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='wavo-fonts-css' href='//fonts.googleapis.com/css?family=Quicksand%3A300%2C400%2C500%2C600%2C700%7CPoppins%3A200%2C300%2C400%2C500%2C600%2C700%2C800%7CGeo&#038;subset=latin%2Clatin-ext' type='text/css' media='all' />
+<style id='wavo-custom-style-inline-css' type='text/css'>
+body.dark .pace, body.light .pace { background-color: #ffffff;}div#nt-preloader {background-color: #ffffff;overflow: hidden;background-repeat: no-repeat;background-position: center center;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 10000;}.lazyloading {
+      background-image: url(https://ninetheme.com/themes/awam/wp-content/themes/wavo/images/loader.gif);
+    }.nt-404 .call-action:before {
+      background-image: url(https://ninetheme.com/themes/awam/wp-content/themes/wavo/images/pattern-bg.gif);
+      background-repeat: repeat;
+      opacity: .04;
+    }.cursor1 {
+            width: 15px;
+            height: 15px;
+            top: calc( (-15px / 2 ) + 5px );
+            left: calc( (-15px + 15px ) / 2 );
+        }
+            .nt-breadcrumbs .nt-breadcrumbs-list li {
+                color: #de3315;
+            }
+</style>
+<script type='text/javascript' src='https://ninetheme.com/themes/awam/wp-includes/js/jquery/jquery.min.js?ver=3.5.1' id='jquery-core-js'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://ninetheme.com/themes/awam/wp-content/themes/wavo/js/modernizr.min.js?ver=1,0' id='modernizr-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://ninetheme.com/themes/awam/wp-content/themes/wavo/js/respond.min.js?ver=1.0' id='respond-js'></script>
+<![endif]-->
+<!--[if lt IE 9]>
+<script type='text/javascript' src='https://ninetheme.com/themes/awam/wp-content/themes/wavo/js/html5shiv.min.js?ver=1.0' id='html5shiv-js'></script>
+<![endif]-->
+<link rel="https://api.w.org/" href="https://ninetheme.com/themes/awam/wp-json/" /><link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://ninetheme.com/themes/awam/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://ninetheme.com/themes/awam/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.6" />
+<meta name="generator" content="WooCommerce 4.9.1" />
+<meta name="framework" content="Redux 4.1.24" /> <noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+<style type="text/css">.recentcomments a{display:inline !important;padding:0 !important;margin:0 !important;}</style><link rel="icon" href="https://ninetheme.com/themes/awam/wp-content/uploads/2020/04/favicon.ico" sizes="32x32" />
+<link rel="icon" href="https://ninetheme.com/themes/awam/wp-content/uploads/2020/04/favicon.ico" sizes="192x192" />
+<link rel="apple-touch-icon" href="https://ninetheme.com/themes/awam/wp-content/uploads/2020/04/favicon.ico" />
+<meta name="msapplication-TileImage" content="https://ninetheme.com/themes/awam/wp-content/uploads/2020/04/favicon.ico" />
+<style type="text/css" id="wp-custom-css">
+			.hamenu .menu-links .main-menu .sub-menu li {
+    list-style: none;
+    font-size: 21px;
+}
+
+.woocommerce ul.products li.product .woocommerce-loop-product__title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: none;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea, .woocommerce .quantity .qty {
+    height: 47px;
+}
+
+.woocommerce ul.cart_list li a, .woocommerce ul.product_list_widget li a {
+    display: block;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+.product_list_widget li del, .product_list_widget li ins {
+    color: #de3418;
+}
+.woocommerce .widget_price_filter .ui-slider .ui-slider-range,.woocommerce .widget_price_filter .ui-slider .ui-slider-handle {
+    
+    background-color: #de3418;
+}
+
+@media(min-width:768px){
+.hamenu .cont-info {
+    margin-top: 30px;
+}
+}
+
+@media(max-width:767px){
+
+.nt-blog .item .img a img {
+    width: 100%;
+}
+.nt-blog .item .img a {
+    display:block;
+}
+}
+
+/* header-column-overlay */
+
+.header-column-overlay{
+position:absolute;
+width:100%;
+height:100%;
+left:0;
+top:0;
+background: #de3315;
+opacity:0;
+    transform: translate3d(-100%,0,0) translate3d(-1px,0,0);
+    transition: transform 1.2s;
+    transition-timing-function: cubic-bezier(0.7,0,0.3,1);
+z-index:1;
+}
+.hamenu.open .header-column-overlay {
+    transform: translate3d(100%,0,0) translate3d(1px,0,0);
+    opacity: 1;
+}
+.header-column {
+    overflow: hidden;
+}
+.hamenu.open .cont-info .item {
+		transition-delay:0.7s;
+}
+
+.page-id-3100 
+.wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output {
+    border-color: #de3416;
+    padding: 10px;
+    margin: 25px 0;
+    position: absolute;
+    bottom: -110px;
+    border-radius: 4px;
+}
+
+.home p > b {
+    color: #fff;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 480px) {
+
+.elementor-22 .elementor-element.elementor-element-726d2fa .swiper-slide .caption {
+    margin-top: 150px;
+    margin-bottom: 50px;
+
+}
+
+.slider .parallax-slider .container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 15px;
+}
+.slider .parallax-slider .social {
+    left: 15px;
+}
+
+.elementor-22 .elementor-element.elementor-element-726d2fa .swiper-slide .slider_hero_title {
+    font-size: 28px;
+}
+.slider .parallax-slider .swiper-slide-active .caption .slider_hero_subtitle {
+    margin-bottom: 18px;
+    clear: both;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 11px;
+}
+}
+
+.lang-select {
+   
+    top: 43%;
+}		</style>
+<style id="wavo-dynamic-css" title="dynamic-css" class="redux-options-output">.nt-breadcrumbs, .nt-breadcrumbs .nt-breadcrumbs-list{font-display:swap;}.nt-breadcrumbs .nt-breadcrumbs-list li.active{color:#ffffff;}.nt-breadcrumbs .nt-breadcrumbs-list i{color:#ffffff;}.loading-text{color:#000000;}.cursor1::after, .cursor-inner, .cursor-inner.cursor-hover{background-color:#de3315;}.cursor-outer,.cursor2::after{border-color:#de3315;}h1{font-display:swap;}h2{font-display:swap;}h3{font-display:swap;}h4{font-display:swap;}h5{font-display:swap;}h6{font-display:swap;}p{font-display:swap;}.progress-wrap{right:30px;bottom:30px;}#nt-logo.logo-type-customtext, #nt-logo.logo-type-sitename{font-display:swap;}.hamenu .menu-links .link, .hamenu .menu-links .sub-link{font-display:swap;}.hamenu .menu-links .main-menu .sub-menu li .sub-link.back{font-display:swap;}#nt-index .page-header .text-bg{font-display:swap;}#nt-index .page-header .text-bg{top:60px;}#nt-index .nt-hero-title{font-display:swap;}#nt-index .nt-hero-desc{font-display:swap;}#nt-single .page-header h2{font-display:swap;}#nt-single .cont .info p,#nt-single .cont .info a{font-display:swap;}.nt-related-post .section-head .subtitle{font-display:swap;}.nt-related-post .section-head .title{font-display:swap;}#nt-archive .nt-hero-title{font-display:swap;}#nt-archive .nt-hero-desc{font-display:swap;}#nt-404 .content h6{font-display:swap;}#nt-404 .content h2{font-display:swap;}#nt-404 .content p{font-display:swap;}#nt-search .nt-hero-title{font-display:swap;}#nt-search .nt-hero-desc{font-display:swap;}#nt-shop-page .nt-hero-title{font-display:swap;}#nt-shop-page .nt-hero-subtitle{font-display:swap;}#nt-shop-page .nt-hero-description{font-display:swap;}.woocommerce ul.products li.product .woocommerce-loop-product__title{font-display:swap;}.woocommerce ul.products li.product .price{font-display:swap;}#nt-woo-single .nt-hero-title{font-display:swap;}#nt-woo-single .nt-hero-subtitle{font-display:swap;}#nt-woo-single .nt-hero-description{font-display:swap;}</style>
+</head>
+
+<body class="error404 theme-wavo woocommerce-no-js nt-page-default Wavo nt-body-class nt-version-1.0.2  light elementor-default elementor-kit-25">
+<div id="preloader">
+<div class="loading-text">AWAM<div class="loading-text-overlay">AWAM</div></div>
+</div>
+<div id="navi" class="topnav ">
+<div class="container-fluid">
+<div class="logo">
+<a href="https://ninetheme.com/themes/awam/" id="nt-logo" class="header_logo logo-type-sitename">
+<span class="headline_title text" data-splitting>Awam</span>
+</a>
+</div>
+<ul class="lang-select">
+<li class="lang-item active">
+<i class="fa fa-globe lang-icon"></i>
+<span class="uppercase">EN</span>
+<i class="fa fa-angle-down lang-arrow"></i>
+</li>
+<li>
+<ul class="sub-list">
+<li class="sub-lang-item"><a href="#0">TR</a></li>
+<li class="sub-lang-item"><a href="#0">KD</a></li>
+<li class="sub-lang-item"><a href="#0">AR</a></li>
+</ul>
+</li>
+</ul>
+<div class="hamburger hamburger--spin">
+<div class="hamburger-box">
+<span class="hamburger-inner"></span>
+</div>
+</div>
+</div>
+</div>
+<div class="hamenu" id="hamenu">
+<div class="overlay-door"></div>
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-5 col-md-5 header-column">
+<div class="menu-links">
+<ul class="main-menu">
+<li id="menu-item-5698" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item--has-child menu-item-5698"><div class="o-hidden"><span class="link dmenu"><span class="nm"></span>Home <i class="fas fa-angle-down"></i></span></div>
+<div class="sub-menu depth_0"><ul><li><div class="o-hidden"><span class="sub-link back"> <i class="fas fa-times"></i> Close </span></div></li>
+<li id="menu-item-5699" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5699"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/creative-agency/" class="link"><span class="nm"></span>Creative Agency </a></div></li>
+<li id="menu-item-5700" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5700"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/divided-full-page-scroll/" class="link"><span class="nm"></span>Divided Full Page Scroll </a></div></li>
+<li id="menu-item-5755" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5755"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/home-divided-2-column-portfolio/" class="link"><span class="nm"></span>Divided 2 Column </a></div></li>
+<li id="menu-item-5790" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5790"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/home-full/" class="link"><span class="nm"></span>Home Horizontal </a></div></li>
+<li id="menu-item-5795" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5795"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home-video-hero/" class="link"><span class="nm"></span>Video Hero </a></div></li>
+<li id="menu-item-5791" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5791"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/freelancer/" class="link"><span class="nm"></span>Freelancer </a></div></li>
+<li id="menu-item-5792" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5792"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/home-6/" class="link"><span class="nm"></span>Home #6 </a></div></li>
+</ul></div></li>
+<li id="menu-item-4439" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4439"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/about-us/about-us-creative/" class="link"><span class="nm"></span>About Us </a></div></li>
+<li id="menu-item-4669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4669"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/services/" class="link"><span class="nm"></span>Services </a></div></li>
+<li id="menu-item-4453" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item--has-child menu-item-4453"><div class="o-hidden"><span class="link dmenu"><span class="nm"></span>Works <i class="fas fa-angle-down"></i></span></div>
+<div class="sub-menu depth_0"><ul><li><div class="o-hidden"><span class="sub-link back"> <i class="fas fa-times"></i> Close </span></div></li>
+<li id="menu-item-4443" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4443"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/portfolio-two-columns/" class="link"><span class="nm"></span>Portfolio 2 Columns </a></div></li>
+<li id="menu-item-4445" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4445"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/portfolio-three-columns/" class="link"><span class="nm"></span>Portfolio 3 Columns </a></div></li>
+<li id="menu-item-4444" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4444"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/portfolio-four-columns/" class="link"><span class="nm"></span>Portfolio 4 Columns </a></div></li>
+<li id="menu-item-4525" class="menu-item menu-item-type-post_type menu-item-object-projects menu-item-4525"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/projects/magic-triangle/" class="link"><span class="nm"></span>Single Portfolio </a></div></li>
+</ul></div></li>
+<li id="menu-item-4454" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item--has-child menu-item-4454"><div class="o-hidden"><span class="link dmenu"><span class="nm"></span>Pages <i class="fas fa-angle-down"></i></span></div>
+<div class="sub-menu depth_0"><ul><li><div class="o-hidden"><span class="sub-link back"> <i class="fas fa-times"></i> Close </span></div></li>
+<li id="menu-item-4450" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4450"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/typography/" class="link"><span class="nm"></span>Typography </a></div></li>
+<li id="menu-item-4440" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4440"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/faq-1/" class="link"><span class="nm"></span>FAQ </a></div></li>
+<li id="menu-item-4448" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4448"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/pricing/" class="link"><span class="nm"></span>Pricing Tables </a></div></li>
+<li id="menu-item-5835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5835"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/parallax-showcase/" class="link"><span class="nm"></span>Parallax Showcase </a></div></li>
+<li id="menu-item-5794" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5794"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/home-conversation-landing-page/" class="link"><span class="nm"></span>Conversation Landing Page </a></div></li>
+<li id="menu-item-5793" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5793"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/simple-personal-portfolio/" class="link"><span class="nm"></span>Simple Personal Portfolio </a></div></li>
+<li id="menu-item-5756" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5756"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/home/home-simple-portfolio/" class="link"><span class="nm"></span>Simple Portfolio </a></div></li>
+</ul></div></li>
+<li id="menu-item-5665" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item--has-child menu-item-5665"><div class="o-hidden"><span class="link dmenu"><span class="nm"></span>Shop <i class="fas fa-angle-down"></i></span></div>
+<div class="sub-menu depth_0"><ul><li><div class="o-hidden"><span class="sub-link back"> <i class="fas fa-times"></i> Close </span></div></li>
+<li id="menu-item-5645" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5645"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/shop/" class="link"><span class="nm"></span>Products </a></div></li>
+<li id="menu-item-5646" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5646"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/shop/cart/" class="link"><span class="nm"></span>Cart </a></div></li>
+<li id="menu-item-5647" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-5647"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/shop/checkout/" class="link"><span class="nm"></span>Checkout </a></div></li>
+</ul></div></li>
+<li id="menu-item-4446" class="menu-item menu-item-type-post_type menu-item-object-page current_page_parent menu-item-4446"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/blog/" class="link"><span class="nm"></span>Blog </a></div></li>
+<li id="menu-item-4452" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item--has-child menu-item-4452"><div class="o-hidden"><span class="link dmenu"><span class="nm"></span>Contact <i class="fas fa-angle-down"></i></span></div>
+<div class="sub-menu depth_0"><ul><li><div class="o-hidden"><span class="sub-link back"> <i class="fas fa-times"></i> Close </span></div></li>
+<li id="menu-item-4442" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4442"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/contact/" class="link"><span class="nm"></span>Contact #1 </a></div></li>
+<li id="menu-item-4447" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4447"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/contact/contact-2/" class="link"><span class="nm"></span>Contact #2 </a></div></li>
+<li id="menu-item-4441" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-4441"><div class="o-hidden"><a href="https://ninetheme.com/themes/awam/contact/contact-3/" class="link"><span class="nm"></span>Contact #3 </a></div></li>
+</ul></div></li>
+</ul>
+</div>
+</div>
+<div class="col-lg-5 col-md-5 header-column">
+<div class="cont-info">
+<div class="item">
+<h6>Phone</h6>
+<div>+0 762-2367-723</div>
+</div>
+<div class="item">
+<h6>Address</h6>
+<div>541 Melville Ave, Palo Alto, CA 94301</div>
+</div>
+<div class="item">
+<h6>E-mail</h6>
+<div><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c3adaaada6b7aba6aea683a7a6aeaceda0acae">[email&#160;protected]</a></div>
+</div> </div>
+</div>
+<div class="col-lg-8 col-md-12"><div class="item header-footer"><p>&copy; 2020, <a class="theme" href="https://ninetheme.com/themes/awam/">Awam</a> Theme. Made with passion by <a class="dev" href="https://ninetheme.com/contact/">Ninetheme.</a></p></div></div> </div>
+</div>
+</div>
+<div class="progress-wrap">
+<svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+<path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+</svg>
+</div>
+<div id="nt-404" class="nt-404 error">
+<div class="call-action" data-overlay-dark="0">
+<div class="container">
+<div class="row justify-content-center">
+<div class="col-md-12">
+<div class="content text-center">
+<h6>page not found</h6><h2>404 <b>Page</b> .</h2><p>Sorry, but the page you are looking for does not exist or has been removed</p><a href="https://ninetheme.com/themes/awam/" class="btn-curve btn-lit mt-30"><span>Go to home page</span></a>
+</div>
+</div>
+<div class="col-md-7">
+<form class="wavo_search" role="search" method="get" id="content-widget-searchform" action="https://ninetheme.com/themes/awam/">
+<input class="search_input" type="text" value="" placeholder="Search..." name="s" id="cws">
+<button class="error_search_button btn-curve btn-wit" id="contentsearchsubmit" type="submit"><span class="fa fa-search"></span></button>
+</form> </div>
+</div>
+</div>
+</div>
+</div>
+<div data-elementor-type="section" data-elementor-id="4264" class="elementor elementor-4264" data-elementor-settings="[]">
+<div class="elementor-inner">
+<div class="elementor-section-wrap">
+<section class="elementor-section elementor-top-section elementor-element elementor-element-2acd5c25 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="2acd5c25" data-element_type="section">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-227de8f0" data-id="227de8f0" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-425c226d animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="425c226d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<span class="elementor-heading-title elementor-size-default">AWAM</span> </div>
+</div>
+<div class="elementor-element elementor-element-57bfcbe0 animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="57bfcbe0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<p class="elementor-heading-title elementor-size-default">We’re a digital creative services firm. We provide web, mobile and app development, branding and design services</p> </div>
+</div>
+<div class="elementor-element elementor-element-390d3ee0 animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="390d3ee0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h6 class="elementor-heading-title elementor-size-default">networks</h6> </div>
+</div>
+<div class="elementor-element elementor-element-f65fba3 elementor-shape-circle animated-slow elementor-grid-0 elementor-invisible elementor-widget elementor-widget-social-icons" data-id="f65fba3" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:800}" data-widget_type="social-icons.default">
+<div class="elementor-widget-container">
+<div class="elementor-social-icons-wrapper elementor-grid">
+<div class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-500px elementor-repeater-item-8968c97" href="https://ninetheme.com/themes/awam/contact/contact-3/" target="_blank">
+<span class="elementor-screen-only">500px</span>
+<i class="fab fa-500px"></i> </a>
+</div>
+<div class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-github elementor-repeater-item-4930546" href="https://ninetheme.com/themes/awam/contact/contact-3/" target="_blank">
+<span class="elementor-screen-only">Github</span>
+<i class="fab fa-github"></i> </a>
+</div>
+<div class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-mixcloud elementor-repeater-item-2662bd9" href="https://ninetheme.com/themes/awam/contact/contact-3/" target="_blank">
+<span class="elementor-screen-only">Mixcloud</span>
+<i class="fab fa-mixcloud"></i> </a>
+</div>
+<div class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-pinterest elementor-repeater-item-3757821" href="https://ninetheme.com/themes/awam/contact/contact-3/" target="_blank">
+<span class="elementor-screen-only">Pinterest</span>
+<i class="fab fa-pinterest"></i> </a>
+</div>
+<div class="elementor-grid-item">
+<a class="elementor-icon elementor-social-icon elementor-social-icon-snapchat elementor-repeater-item-947fa2a" href="https://ninetheme.com/themes/awam/contact/contact-3/" target="_blank">
+<span class="elementor-screen-only">Snapchat</span>
+<i class="fab fa-snapchat"></i> </a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-327cc2e5" data-id="327cc2e5" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-3231f33f animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="3231f33f" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h6 class="elementor-heading-title elementor-size-default">contact</h6> </div>
+</div>
+<div class="elementor-element elementor-element-54355704 animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="54355704" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:400}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<span class="elementor-heading-title elementor-size-default">NOTE : Please use our e-mail addresses first.
+</span> </div>
+</div>
+<div class="elementor-element elementor-element-40e67324 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="40e67324" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix"><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="6900070f06290d0c0406471a001d0c470a0604">[email&#160;protected]</a><br>
+<a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="c5b6b0b5b5aab7b185a1a0a8aaebb6acb1a0eba6aaa8">[email&#160;protected]</a><br>
+&nbsp; <br>
+(257) 563-7401<br>
+(257) 563-7422<br></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-564973d" data-id="564973d" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-7376d80c animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="7376d80c" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:300}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h6 class="elementor-heading-title elementor-size-default">Address</h6> </div>
+</div>
+<div class="elementor-element elementor-element-2905698d animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="2905698d" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h6 class="elementor-heading-title elementor-size-default">New york</h6> </div>
+</div>
+<div class="elementor-element elementor-element-1691e9da animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="1691e9da" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">Cecilia Chapman
+711-2880
+Nulla St.
+Mankato Mississippi 96522
+</div>
+</div>
+</div>
+<div class="elementor-element elementor-element-2a515ae7 animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="2a515ae7" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:600}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h6 class="elementor-heading-title elementor-size-default">Mississippi</h6> </div>
+</div>
+<div class="elementor-element elementor-element-1cde6994 animated-slow elementor-invisible elementor-widget elementor-widget-text-editor" data-id="1cde6994" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:700}" data-widget_type="text-editor.default">
+<div class="elementor-widget-container">
+<div class="elementor-text-editor elementor-clearfix">Cecilia Chapman 711-2880
+Nulla St.
+Mankato Mississippi 96522</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6a52e4a4" data-id="6a52e4a4" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-6c7aedc4 animated-slow wavo-transform transform-type-translate elementor-invisible elementor-widget elementor-widget-heading" data-id="6c7aedc4" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:500}" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<h6 class="elementor-heading-title elementor-size-default">Sitemap</h6> </div>
+</div>
+<div class="elementor-element elementor-element-6613b0f0 animated-slow elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-invisible elementor-widget elementor-widget-icon-list" data-id="6613b0f0" data-element_type="widget" data-settings="{&quot;_animation&quot;:&quot;fadeIn&quot;,&quot;_animation_delay&quot;:400}" data-widget_type="icon-list.default">
+<div class="elementor-widget-container">
+<ul class="elementor-icon-list-items">
+<li class="elementor-icon-list-item">
+<a href="https://ninetheme.com/themes/awam/contact/"> <span class="elementor-icon-list-text">About</span>
+</a>
+</li>
+<li class="elementor-icon-list-item">
+<a href="https://ninetheme.com/themes/awam/about/"> <span class="elementor-icon-list-text">Products</span>
+</a>
+</li>
+<li class="elementor-icon-list-item">
+<a href="https://ninetheme.com/themes/awam/about/"> <span class="elementor-icon-list-text">Services</span>
+</a>
+</li>
+<li class="elementor-icon-list-item">
+<a href="https://ninetheme.com/themes/awam/contact/"> <span class="elementor-icon-list-text">Contact</span>
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="elementor-section elementor-top-section elementor-element elementor-element-6fdb80d elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="6fdb80d" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+<div class="elementor-container elementor-column-gap-default">
+<div class="elementor-row">
+<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-962924d" data-id="962924d" data-element_type="column">
+<div class="elementor-column-wrap elementor-element-populated">
+<div class="elementor-widget-wrap">
+<div class="elementor-element elementor-element-c9d8cfd wavo-transform transform-type-translate elementor-widget elementor-widget-heading" data-id="c9d8cfd" data-element_type="widget" data-widget_type="heading.default">
+<div class="elementor-widget-container">
+<span class="elementor-heading-title elementor-size-default">Copyright © - 2020 Ninetheme. All rights reserved.</span> </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+</div>
+</div>
+<div class="mouse-cursor cursor-outer cursor-type-3"></div><div class="mouse-cursor cursor-inner"></div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script data-optimized="1" src="https://ninetheme.com/themes/awam/wp-content/litespeed/cssjs/e225f.js?e01cc" defer></script></body>
+</html>

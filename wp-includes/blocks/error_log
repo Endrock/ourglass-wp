@@ -1,0 +1,4 @@
+[18-Aug-2023 09:13:27 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/ourglas5/public_html/wp-includes/blocks/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-includes/blocks/index.php on line 8

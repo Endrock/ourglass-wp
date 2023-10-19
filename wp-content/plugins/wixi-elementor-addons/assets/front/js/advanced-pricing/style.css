@@ -1,0 +1,712 @@
+
+/* -------------------------------- 
+
+Main Components 
+
+-------------------------------- */
+.wixi-pricing-container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0px auto;
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-container {
+    margin: 0px auto;
+  }
+  .wixi-pricing-container.wixi-full-width {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.wixi-pricing-switcher {
+  text-align: center;
+}
+.wixi-pricing-switcher .fieldset {
+  display: inline-block;
+  position: relative;
+  padding: 2px;
+  border-radius: 50em;
+  border: 1px solid #225b78;
+}
+.wixi-pricing-switcher input[type="radio"] {
+  position: absolute;
+  opacity: 0;
+}
+.wixi-pricing-switcher label {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    float: left;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+.wixi-pricing-switcher .wixi-switch {
+  /* floating background */
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 40px;
+  width: 90px;
+  background-color: #0c1f28;
+  border-radius: 50em;
+  -webkit-transition: -webkit-transform 0.5s;
+  -moz-transition: -moz-transform 0.5s;
+  transition: transform 0.5s;
+}
+.wixi-pricing-switcher input[type="radio"]:checked + label + .wixi-switch,
+.wixi-pricing-switcher input[type="radio"]:checked + label:nth-of-type(n) + .wixi-switch {
+  /* use label:nth-of-type(n) to fix a bug on safari with multiple adjacent-sibling selectors*/
+  -webkit-transform: translateX(90px);
+  -moz-transform: translateX(90px);
+  -ms-transform: translateX(90px);
+  -o-transform: translateX(90px);
+  transform: translateX(90px);
+}
+
+.no-js .wixi-pricing-switcher {
+  display: none;
+}
+
+.wixi-pricing-list {
+  margin: 32px 0 0;
+}
+.wixi-has-margins .wixi-pricing-list {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.wixi-pricing-list > li {
+  position: relative;
+  margin-bottom: 15px;
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-list {
+    margin: 48px 0 0;
+  }
+  .wixi-pricing-list:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .wixi-pricing-list > li {
+    width: 33.33333%;
+    float: left;
+  }
+  .wixi-has-margins .wixi-pricing-list > li {
+    width: 33.33333%;
+    float: left;
+    padding: 15px;
+  }
+  .wixi-has-margins .wixi-pricing-list > li:last-of-type {
+    margin-right: 0;
+  }
+}
+
+.wixi-pricing-wrapper {
+  /* this is the item that rotates */
+  position: relative;
+}
+.touch .wixi-pricing-wrapper {
+  /* fix a bug on IOS8 - rotating elements dissapear*/
+  -webkit-perspective: 2000px;
+  -moz-perspective: 2000px;
+  perspective: 2000px;
+}
+.wixi-pricing-wrapper.is-switched .is-visible {
+  /* totate the tables - anticlockwise rotation */
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  -webkit-animation: nt-rotate 0.5s;
+  -moz-animation: nt-rotate 0.5s;
+  animation: nt-rotate 0.5s;
+}
+.wixi-pricing-wrapper.is-switched .is-hidden {
+  /* totate the tables - anticlockwise rotation */
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  -o-transform: rotateY(0);
+  transform: rotateY(0);
+  -webkit-animation: nt-rotate-inverse 0.5s;
+  -moz-animation: nt-rotate-inverse 0.5s;
+  animation: nt-rotate-inverse 0.5s;
+  opacity: 0;
+}
+.wixi-pricing-wrapper.is-switched .is-selected {
+  opacity: 1;
+}
+.wixi-pricing-wrapper.is-switched.reverse-animation .is-visible {
+  /* invert rotation direction - clockwise rotation */
+  -webkit-transform: rotateY(-180deg);
+  -moz-transform: rotateY(-180deg);
+  -ms-transform: rotateY(-180deg);
+  -o-transform: rotateY(-180deg);
+  transform: rotateY(-180deg);
+  -webkit-animation: nt-rotate-back 0.5s;
+  -moz-animation: nt-rotate-back 0.5s;
+  animation: nt-rotate-back 0.5s;
+}
+.wixi-pricing-wrapper.is-switched.reverse-animation .is-hidden {
+  /* invert rotation direction - clockwise rotation */
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  -o-transform: rotateY(0);
+  transform: rotateY(0);
+  -webkit-animation: nt-rotate-inverse-back 0.5s;
+  -moz-animation: nt-rotate-inverse-back 0.5s;
+  animation: nt-rotate-inverse-back 0.5s;
+  opacity: 0;
+}
+.wixi-pricing-wrapper.is-switched.reverse-animation .is-selected {
+  opacity: 1;
+}
+.wixi-pricing-wrapper > li {
+  background-color: #FFFFFF;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  /* Firefox bug - 3D CSS transform, jagged edges */
+  outline: 1px solid transparent;
+}
+.wixi-pricing-wrapper > li::after {
+  /* subtle gradient layer on the right - to indicate it's possible to scroll */
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 50px;
+  pointer-events: none;
+  background: -webkit-linear-gradient( right , #FFFFFF, rgba(255, 255, 255, 0));
+  background: linear-gradient(to left, #FFFFFF, rgba(255, 255, 255, 0));
+}
+.wixi-pricing-wrapper > li.is-ended::after {
+  /* class added in jQuery - remove the gradient layer when it's no longer possible to scroll */
+  display: none;
+}
+.wixi-pricing-wrapper .is-visible {
+  /* the front item, visible by default */
+  position: relative;
+  z-index: 5;
+}
+.wixi-pricing-wrapper .is-hidden {
+  /* the hidden items, right behind the front one */
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+.wixi-pricing-wrapper .is-selected {
+  /* the next item that will be visible */
+  z-index: 3 !important;
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-wrapper > li::before {
+    /* separator between pricing tables - visible when number of tables > 3 */
+    content: '';
+    position: absolute;
+    z-index: 6;
+    left: -1px;
+    top: 50%;
+    bottom: auto;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    height: 50%;
+    width: 1px;
+    background-color: #b1d6e8;
+  }
+  .wixi-pricing-wrapper > li::after {
+    /* hide gradient layer */
+    display: none;
+  }
+  .wixi-popular .wixi-pricing-wrapper > li {
+    box-shadow: inset 0 0 0 3px var(--color-secondary);
+  }
+  .wixi-has-margins .wixi-pricing-wrapper > li, .wixi-has-margins .wixi-popular .wixi-pricing-wrapper > li {
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  .wixi-secondary-theme .wixi-pricing-wrapper > li {
+    background: #3aa0d1;
+    background: -webkit-linear-gradient( bottom , #3aa0d1, #3ad2d1);
+    background: linear-gradient(to top, #3aa0d1, #3ad2d1);
+  }
+  .wixi-secondary-theme .wixi-popular .wixi-pricing-wrapper > li {
+    background: var(--color-secondary);
+    background: -webkit-linear-gradient( bottom , var(--color-secondary), #e99b68);
+    background: linear-gradient(to top, var(--color-secondary), #e99b68);
+    box-shadow: none;
+  }
+  :nth-of-type(1) > .wixi-pricing-wrapper > li::before {
+    /* hide table separator for the first table */
+    display: none;
+  }
+  .wixi-has-margins .wixi-pricing-wrapper > li {
+    border-radius: 4px 4px 6px 6px;
+  }
+  .wixi-has-margins .wixi-pricing-wrapper > li::before {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .wixi-full-width .wixi-pricing-wrapper > li {
+    padding: 40px 0;
+  }
+}
+
+.no-js .wixi-pricing-wrapper .is-hidden {
+  position: relative;
+  -webkit-transform: rotateY(0);
+  -moz-transform: rotateY(0);
+  -ms-transform: rotateY(0);
+  -o-transform: rotateY(0);
+  transform: rotateY(0);
+  margin-top: 14px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wixi-popular .wixi-pricing-wrapper > li::before {
+    /* hide table separator for .wixi-popular table */
+    display: none;
+  }
+
+  .wixi-popular + li .wixi-pricing-wrapper > li::before {
+    /* hide table separator for tables following .wixi-popular table */
+    display: none;
+  }
+}
+.wixi-pricing-header {
+  position: relative;
+  z-index: 1;
+  height: 80px;
+  padding: 14px;
+  pointer-events: none;
+  background-color: #3aa0d1;
+  color: #FFFFFF;
+}
+.wixi-pricing-header h2 {
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.wixi-popular .wixi-pricing-header {
+  background-color: var(--color-secondary);
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-header {
+    height: auto;
+    padding: 30px 14px 25px;
+    pointer-events: auto;
+    text-align: center;
+    color: var(--color-dark);
+    background-color: transparent;
+  }
+  .wixi-popular .wixi-pricing-header {
+    color: var(--color-secondary);
+    background-color: transparent;
+  }
+  .wixi-secondary-theme .wixi-pricing-header {
+    color: #FFFFFF;
+  }
+
+}
+
+.wixi-currency, .wixi-value {
+  font-size: 30;
+  font-weight: 300;
+}
+
+.wixi-duration {
+  font-weight: 700;
+  font-size: 13px;
+  color: #8dc8e4;
+  text-transform: uppercase;
+}
+.wixi-popular .wixi-duration {
+  color: #f3b6ab;
+}
+.wixi-duration::before {
+  content: '/';
+  margin-right: 2px;
+}
+
+@media only screen and (min-width: 768px) {
+  .wixi-value {
+    font-size: 70px;
+    font-weight: 300;
+  }
+
+  .wixi-currency, .wixi-duration {
+    color: rgba(23, 61, 80, 0.4);
+  }
+  .wixi-popular .wixi-currency, .wixi-popular .wixi-duration {
+    color: var(--color-secondary);
+  }
+  .wixi-secondary-theme .wixi-currency, .wixi-secondary-theme .wixi-duration {
+    color: #2e80a7;
+  }
+  .wixi-secondary-theme .wixi-popular .wixi-currency, .wixi-secondary-theme .wixi-popular .wixi-duration {
+    color: #ba6453;
+  }
+
+  .wixi-currency {
+    display: inline-block;
+    margin-top: 10px;
+    vertical-align: top;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .wixi-duration {
+    font-size: 14px;
+  }
+}
+.wixi-pricing-body {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+.is-switched .wixi-pricing-body {
+  /* fix a bug on Chrome Android */
+  overflow: hidden;
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-body {
+    overflow-x: visible;
+  }
+}
+
+.wixi-pricing-features {
+  width: 600px;
+}
+.wixi-pricing-features:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wixi-pricing-features li {
+  width: 100px;
+  float: left;
+  padding: 16px 14px;
+  font-size: 14px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.wixi-pricing-features em {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-features {
+    width: auto;
+  }
+  .wixi-pricing-features li {
+    float: none;
+    width: auto;
+    padding: 14px;
+  }
+  .wixi-popular .wixi-pricing-features li {
+    margin: 0 3px;
+  }
+  .wixi-pricing-features li:nth-of-type(2n+1) {
+    background-color: rgba(23, 61, 80, 0.06);
+  }
+  .wixi-pricing-features em {
+    display: inline-block;
+    margin-bottom: 0;
+  }
+  .wixi-has-margins .wixi-popular .wixi-pricing-features li, .wixi-secondary-theme .wixi-popular .wixi-pricing-features li {
+    margin: 0;
+  }
+  .wixi-secondary-theme .wixi-pricing-features li {
+    color: #FFFFFF;
+  }
+  .wixi-secondary-theme .wixi-pricing-features li:nth-of-type(2n+1) {
+    background-color: transparent;
+  }
+}
+
+.wixi-pricing-footer {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  /* on mobile it covers the .wixi-pricing-header */
+  height: 80px;
+  width: 100%;
+}
+.wixi-pricing-footer::after {
+  /* right arrow visible on mobile */
+  content: '';
+  position: absolute;
+  right: 14px;
+  top: 50%;
+  bottom: auto;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 20px;
+  width: 20px;
+}
+@media only screen and (min-width: 768px) {
+  .wixi-pricing-footer {
+    position: relative;
+    height: auto;
+    padding: 28px 0;
+    text-align: center;
+  }
+  .wixi-pricing-footer::after {
+    /* hide arrow */
+    display: none;
+  }
+  .wixi-has-margins .wixi-pricing-footer {
+    padding-bottom: 0;
+  }
+}
+
+
+.wixi-select span {
+    color: #000;
+}
+@media only screen and (min-width: 768px) {
+
+
+}
+
+/* -------------------------------- 
+
+xkeyframes 
+
+-------------------------------- */
+@-webkit-keyframes nt-rotate {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+  }
+}
+@-moz-keyframes nt-rotate {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -moz-transform: perspective(2000px) rotateY(200deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(180deg);
+  }
+}
+@keyframes nt-rotate {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(200deg);
+    -moz-transform: perspective(2000px) rotateY(200deg);
+    -ms-transform: perspective(2000px) rotateY(200deg);
+    -o-transform: perspective(2000px) rotateY(200deg);
+    transform: perspective(2000px) rotateY(200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+    -moz-transform: perspective(2000px) rotateY(180deg);
+    -ms-transform: perspective(2000px) rotateY(180deg);
+    -o-transform: perspective(2000px) rotateY(180deg);
+    transform: perspective(2000px) rotateY(180deg);
+  }
+}
+@-webkit-keyframes nt-rotate-inverse {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+}
+@-moz-keyframes nt-rotate-inverse {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -moz-transform: perspective(2000px) rotateY(20deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+}
+@keyframes nt-rotate-inverse {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+    -ms-transform: perspective(2000px) rotateY(-180deg);
+    -o-transform: perspective(2000px) rotateY(-180deg);
+    transform: perspective(2000px) rotateY(-180deg);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(20deg);
+    -moz-transform: perspective(2000px) rotateY(20deg);
+    -ms-transform: perspective(2000px) rotateY(20deg);
+    -o-transform: perspective(2000px) rotateY(20deg);
+    transform: perspective(2000px) rotateY(20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+}
+@-webkit-keyframes nt-rotate-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(-200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+  }
+}
+@-moz-keyframes nt-rotate-back {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -moz-transform: perspective(2000px) rotateY(-200deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+  }
+}
+@keyframes nt-rotate-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(-200deg);
+    -moz-transform: perspective(2000px) rotateY(-200deg);
+    -ms-transform: perspective(2000px) rotateY(-200deg);
+    -o-transform: perspective(2000px) rotateY(-200deg);
+    transform: perspective(2000px) rotateY(-200deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(-180deg);
+    -moz-transform: perspective(2000px) rotateY(-180deg);
+    -ms-transform: perspective(2000px) rotateY(-180deg);
+    -o-transform: perspective(2000px) rotateY(-180deg);
+    transform: perspective(2000px) rotateY(-180deg);
+  }
+}
+@-webkit-keyframes nt-rotate-inverse-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(-20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+  }
+}
+@-moz-keyframes nt-rotate-inverse-back {
+  0% {
+    -moz-transform: perspective(2000px) rotateY(180deg);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -moz-transform: perspective(2000px) rotateY(-20deg);
+  }
+  100% {
+    -moz-transform: perspective(2000px) rotateY(0);
+  }
+}
+@keyframes nt-rotate-inverse-back {
+  0% {
+    -webkit-transform: perspective(2000px) rotateY(180deg);
+    -moz-transform: perspective(2000px) rotateY(180deg);
+    -ms-transform: perspective(2000px) rotateY(180deg);
+    -o-transform: perspective(2000px) rotateY(180deg);
+    transform: perspective(2000px) rotateY(180deg);
+  }
+  70% {
+    /* this creates the bounce effect */
+    -webkit-transform: perspective(2000px) rotateY(-20deg);
+    -moz-transform: perspective(2000px) rotateY(-20deg);
+    -ms-transform: perspective(2000px) rotateY(-20deg);
+    -o-transform: perspective(2000px) rotateY(-20deg);
+    transform: perspective(2000px) rotateY(-20deg);
+  }
+  100% {
+    -webkit-transform: perspective(2000px) rotateY(0);
+    -moz-transform: perspective(2000px) rotateY(0);
+    -ms-transform: perspective(2000px) rotateY(0);
+    -o-transform: perspective(2000px) rotateY(0);
+    transform: perspective(2000px) rotateY(0);
+  }
+}
+
+ul.wixi-pricing-wrapper,
+.wixi-pricing-features{
+    padding: 0;
+}
+.wixi-pricing-list > li,
+.wixi-pricing-wrapper > li {
+    list-style: none;
+}
+@media only screen and (min-width: 768px){
+    .wixi-pricing-list.col4 > li {
+        width: 25%;
+    }
+    .wixi-pricing-list.col2 > li {
+        width: 50%;
+    }
+}

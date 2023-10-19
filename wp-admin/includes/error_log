@@ -1,0 +1,20 @@
+[22-May-2023 10:44:50 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/ourglas5/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-admin/includes/admin.php on line 16
+[13-Jun-2023 07:53:57 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/ourglas5/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-admin/includes/admin.php on line 16
+[17-Jun-2023 05:20:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/ourglas5/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-admin/includes/admin.php on line 16
+[08-Jul-2023 21:37:29 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/ourglas5/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-admin/includes/admin.php on line 16
+[08-Jul-2023 21:37:38 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_locale() in /home1/ourglas5/public_html/wp-admin/includes/admin.php:16
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-admin/includes/admin.php on line 16

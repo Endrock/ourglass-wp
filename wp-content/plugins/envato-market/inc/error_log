@@ -1,0 +1,16 @@
+[10-Sep-2023 23:45:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php:379
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php on line 379
+[10-Sep-2023 23:45:39 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php:379
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php on line 379
+[18-Sep-2023 06:45:16 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php:379
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php on line 379
+[30-Sep-2023 00:55:17 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php:379
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-content/plugins/envato-market/inc/class-envato-market-github.php on line 379

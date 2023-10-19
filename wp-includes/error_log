@@ -1,0 +1,8 @@
+[28-Apr-2023 15:59:36 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/ourglas5/public_html/wp-includes/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-includes/functions.php on line 8
+[20-Aug-2023 17:31:42 America/Boise] PHP Fatal error:  Uncaught Error: Undefined constant "ABSPATH" in /home1/ourglas5/public_html/wp-includes/functions.php:8
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-includes/functions.php on line 8

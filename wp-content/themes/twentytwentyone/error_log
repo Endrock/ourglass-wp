@@ -1,0 +1,4 @@
+[22-Aug-2023 20:59:36 America/Boise] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home1/ourglas5/public_html/wp-content/themes/twentytwentyone/index.php:17
+Stack trace:
+#0 {main}
+  thrown in /home1/ourglas5/public_html/wp-content/themes/twentytwentyone/index.php on line 17
