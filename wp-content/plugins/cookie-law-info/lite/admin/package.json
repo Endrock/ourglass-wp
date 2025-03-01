@@ -13,7 +13,7 @@
     "@popperjs/core": "^2.11.5",
     "@wordpress/api-fetch": "^5.2.1",
     "chart.js": "^3.9.1",
-    "core-js": "^3.6.5",
+    "core-js": "^3.40.0",
     "md5": "^2.3.0",
     "sass": "^1.62.1",
     "vue": "^2.6.11",
