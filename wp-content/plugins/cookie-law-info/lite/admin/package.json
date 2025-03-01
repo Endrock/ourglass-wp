@@ -10,7 +10,7 @@
     "build-webpack-lite": "webpack-cli --config webpack/lite.config.js --mode production"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.5",
+    "@popperjs/core": "^2.11.8",
     "@wordpress/api-fetch": "^5.2.1",
     "chart.js": "^3.9.1",
     "core-js": "^3.6.5",
